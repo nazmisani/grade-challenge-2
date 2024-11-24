@@ -7,7 +7,7 @@ import AddUser from "../views/AddUser.jsx";
 import EditCuisine from "../views/edit.jsx";
 import Toastify from "toastify-js";
 import AddCuisine from "../views/AddCuisine.jsx";
-const base_url = "https://h8-phase2-gc.vercel.app.jsx";
+const base_url = "https://h8-phase2-gc.vercel.app";
 
 const router = createBrowserRouter([
   {
