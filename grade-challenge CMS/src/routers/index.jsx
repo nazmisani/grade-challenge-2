@@ -1,14 +1,13 @@
 import { createBrowserRouter, redirect } from "react-router-dom";
-import LoginPage from "../views/LoginPage";
-import BaseLayout from "../views/BaseLayout";
-import ListCuisine from "../views/ListCuisinePage";
-import ListCategories from "../views/ListCategories";
-import AddUser from "../views/AddUser";
-import EditCuisine from "../views/edit";
+import LoginPage from "../views/LoginPage.jsx";
+import BaseLayout from "../views/BaseLayout.jsx";
+import ListCuisine from "../views/ListCuisinePage.jsx";
+import ListCategories from "../views/ListCategories.jsx";
+import AddUser from "../views/AddUser.jsx";
+import EditCuisine from "../views/edit.jsx";
 import Toastify from "toastify-js";
-import AddCuisine from "../views/addCuisine";
-
-const base_url = "https://h8-phase2-gc.vercel.app";
+import AddCuisine from "../views/AddCuisine.jsx";
+const base_url = "https://h8-phase2-gc.vercel.app.jsx";
 
 const router = createBrowserRouter([
   {
