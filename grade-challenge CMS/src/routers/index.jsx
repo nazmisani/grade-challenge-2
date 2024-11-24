@@ -3,10 +3,10 @@ import LoginPage from "../views/LoginPage";
 import BaseLayout from "../views/BaseLayout";
 import ListCuisine from "../views/ListCuisinePage";
 import ListCategories from "../views/ListCategories";
-import AddCuisine from "../views/addCuisine";
 import AddUser from "../views/AddUser";
 import EditCuisine from "../views/edit";
 import Toastify from "toastify-js";
+import AddCuisine from "../views/addCuisine";
 
 const base_url = "https://h8-phase2-gc.vercel.app";
 
