@@ -30,11 +30,10 @@ export default function LoginPage({ base_url }) {
           border: "solid #000000",
           borderRadius: "8px",
           boxShadow: "2px 2px black",
-          zIndex: 9999, // Pastikan di atas elemen lain
+          zIndex: 9999,
         },
       }).showToast();
     } catch (error) {
-      const errorMessage = error.response?.data?.error;
       Toastify({
         text: error.response?.data?.error,
         duration: 3000,
